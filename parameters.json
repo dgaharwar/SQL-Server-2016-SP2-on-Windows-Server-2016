@@ -3,52 +3,52 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "uksouth"
+            "defaulValue": "uksouth"
         },
         "networkInterfaceName2": {
-            "value": "dgtestvm2328_z2"
+            "defaulValue": "dgtestvm2328_z2"
         },
         "networkSecurityGroupId": {
-            "value": "/subscriptions/3b6ff759-299c-4a48-bef8-d1e612b57658/resourceGroups/dg-ops/providers/Microsoft.Network/networkSecurityGroups/nsg-uksouth"
+            "defaulValue": "/subscriptions/3b6ff759-299c-4a48-bef8-d1e612b57658/resourceGroups/dg-ops/providers/Microsoft.Network/networkSecurityGroups/nsg-uksouth"
         },
         "subnetName": {
-            "value": "default"
+            "defaulValue": "default"
         },
         "virtualNetworkId": {
-            "value": "/subscriptions/3b6ff759-299c-4a48-bef8-d1e612b57658/resourceGroups/dg-ops/providers/Microsoft.Network/virtualNetworks/dg-ops-vnet"
+            "defaulValue": "/subscriptions/3b6ff759-299c-4a48-bef8-d1e612b57658/resourceGroups/dg-ops/providers/Microsoft.Network/virtualNetworks/dg-ops-vnet"
         },
         "publicIpAddressName2": {
-            "value": "dgtestvm2-ip"
+            "defaulValue": "dgtestvm2-ip"
         },
         "publicIpAddressType": {
-            "value": "Static"
+            "defaulValue": "Static"
         },
         "publicIpAddressSku": {
-            "value": "Standard"
+            "defaulValue": "Standard"
         },
         "pipDeleteOption": {
-            "value": "Delete"
+            "defaulValue": "Delete"
         },
         "virtualMachineName": {
-            "value": "dgtestvm2"
+            "defaulValue": "dgtestvm2"
         },
         "virtualMachineName2": {
-            "value": "dgtestvm2"
+            "defaulValue": "dgtestvm2"
         },
         "virtualMachineComputerName2": {
-            "value": "dgtestvm2"
+            "defaulValue": "dgtestvm2"
         },
         "virtualMachineRG": {
-            "value": "dg-ops"
+            "defaulValue": "dg-ops"
         },
         "osDiskType": {
-            "value": "StandardSSD_LRS"
+            "defaulValue": "StandardSSD_LRS"
         },
         "osDiskDeleteOption": {
-            "value": "Delete"
+            "defaulValue": "Delete"
         },
         "dataDisks2": {
-            "value": [
+            "defaulValue": [
                 {
                     "lun": 0,
                     "createOption": "attach",
@@ -76,7 +76,7 @@
             ]
         },
         "dataDiskResources2": {
-            "value": [
+            "defaulValue": [
                 {
                     "name": "dgtestvm2_DataDisk_0",
                     "sku": "Premium_LRS",
@@ -100,128 +100,128 @@
             ]
         },
         "virtualMachineSize": {
-            "value": "Standard_DS1_v2"
+            "defaulValue": "Standard_DS1_v2"
         },
         "nicDeleteOption": {
-            "value": "Delete"
+            "defaulValue": "Delete"
         },
         "adminUsername": {
-            "value": "deepti"
+            "defaulValue": "deepti"
         },
         "adminPassword": {
-            "value": null
+            "defaulValue": null
         },
         "patchMode": {
-            "value": "AutomaticByOS"
+            "defaulValue": "AutomaticByOS"
         },
         "enableHotpatching": {
-            "value": false
+            "defaulValue": false
         },
         "zone": {
-            "value": "2"
+            "defaulValue": "2"
         },
         "sqlVirtualMachineLocation": {
-            "value": "uksouth"
+            "defaulValue": "uksouth"
         },
         "sqlVirtualMachineName": {
-            "value": "dgtestvm2"
+            "defaulValue": "dgtestvm2"
         },
         "sqlConnectivityType": {
-            "value": "Local"
+            "defaulValue": "Local"
         },
         "sqlPortNumber": {
-            "value": 1433
+            "defaulValue": 1433
         },
         "sqlStorageDisksCount": {
-            "value": 1
+            "defaulValue": 1
         },
         "sqlStorageWorkloadType": {
-            "value": "OLTP"
+            "defaulValue": "OLTP"
         },
         "sqlStorageDisksConfigurationType": {
-            "value": "NEW"
+            "defaulValue": "NEW"
         },
         "sqlStorageStartingDeviceId": {
-            "value": 2
+            "defaulValue": 2
         },
         "sqlStorageDeploymentToken": {
-            "value": 37637
+            "defaulValue": 37637
         },
         "sqlAutopatchingDayOfWeek": {
-            "value": "Sunday"
+            "defaulValue": "Sunday"
         },
         "sqlAutopatchingStartHour": {
-            "value": "2"
+            "defaulValue": "2"
         },
         "sqlAutopatchingWindowDuration": {
-            "value": "60"
+            "defaulValue": "60"
         },
         "sqlAuthenticationLogin": {
-            "value": "deepti"
+            "defaulValue": "deepti"
         },
         "sqlAuthenticationPassword": {
-            "value": null
+            "defaulValue": null
         },
         "dataPath": {
-            "value": "F:\\data"
+            "defaulValue": "F:\\data"
         },
         "dataDisksLUNs": {
-            "value": [
+            "defaulValue": [
                 0
             ]
         },
         "logPath": {
-            "value": "G:\\log"
+            "defaulValue": "G:\\log"
         },
         "logDisksLUNs": {
-            "value": [
+            "defaulValue": [
                 1
             ]
         },
         "tempDbPath": {
-            "value": "D:\\tempDb"
+            "defaulValue": "D:\\tempDb"
         },
         "dataFileCount": {
-            "value": 1
+            "defaulValue": 1
         },
         "dataFileSize": {
-            "value": 8
+            "defaulValue": 8
         },
         "dataGrowth": {
-            "value": 64
+            "defaulValue": 64
         },
         "logFileSize": {
-            "value": 8
+            "defaulValue": 8
         },
         "logGrowth": {
-            "value": 64
+            "defaulValue": 64
         },
         "SQLSystemDbOnDataDisk": {
-            "value": false
+            "defaulValue": false
         },
         "rServicesEnabled": {
-            "value": "false"
+            "defaulValue": "false"
         },
         "maxdop": {
-            "value": 0
+            "defaulValue": 0
         },
         "isOptimizeForAdHocWorkloadsEnabled": {
-            "value": false
+            "defaulValue": false
         },
         "collation": {
-            "value": "SQL_Latin1_General_CP1_CI_AS"
+            "defaulValue": "SQL_Latin1_General_CP1_CI_AS"
         },
         "minServerMemoryMB": {
-            "value": 0
+            "defaulValue": 0
         },
         "maxServerMemoryMB": {
-            "value": 2147483647
+            "defaulValue": 2147483647
         },
         "isLPIMEnabled": {
-            "value": false
+            "defaulValue": false
         },
         "isIFIEnabled": {
-            "value": false
+            "defaulValue": false
         }
     }
 }
